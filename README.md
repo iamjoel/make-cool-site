@@ -8,10 +8,10 @@
 文字选中时，可设置与网站主题相符合的颜色。    
 ![文字选中](text-selected/demo.png)
 
-## [溢出文字加省略号]()
-![溢出文字加省略号](text-overflow/demo.png)
+## [溢出文字自动加省略号](http://htmlpreview.github.io/?https://github.com/iamjoel/make-cool-site/blob/master/text-overflow/index.html)
+![溢出文字自动加省略号](text-overflow/demo.png)
 
-## [英文单词换行自动加连词符号(-)]()
+## [英文单词换行自动加连词符号(-)](http://htmlpreview.github.io/?https://github.com/iamjoel/make-cool-site/blob/master/en-word-break/index.html)
 兼容性：Firfox6+, Safari5.1+,IE 10+。chrome不支持    
 ![英文单词换行自动加连词符](en-word-break/demo.png)
 
