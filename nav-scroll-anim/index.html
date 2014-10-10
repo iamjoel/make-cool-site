@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>导航滚动至锚点动画</title>
+    <style>
+    nav a {
+        text-align: right;
+        margin-left: 50px;
+        font-size: 20px;
+    }
+    .holder {
+        height: 600px;
+    }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href= "javascript:void(0)"  data-target="#about-me">关于我</a>
+        <a href= "javascript:void(0)" data-target="#about-site">关于本站</a>
+    </nav>
+    <div class="holder"></div>
+    <div id="about-me">
+        <h2>关于我</h2>
+        <div class="holder"></div>
+    </div>
+    <div id="about-site">
+        <h2>关于本站</h2>
+        <div class="holder"></div>
+    </div>
+    <script src="http://cdn.staticfile.org/jquery/2.1.1-rc2/jquery.js"></script>
+    <script>
+    $(document).ready(function() {
+        function goToByScroll($elem) {
+            $('html,body').animate({
+                scrollTop: $elem.offset().top
+            }, 'slow');
+        }
+
+        $('nav a').click(function(){
+        	var $target = $($(this).data('target'));
+        	goToByScroll($target);
+        });
+    })
+    </script>
+</body>
+
+</html>
