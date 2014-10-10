@@ -1,6 +1,7 @@
 a.external{
 	background: url("icons.png") no-repeat scroll right 4px rgba(0, 0, 0, 0);
     padding-right: 13px;
+    color: #e50053;
 }
 a.external:hover {
     background-position: right -14px;
