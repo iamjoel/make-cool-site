@@ -15,6 +15,11 @@
 兼容性：Firfox6+, Safari5.1+,IE 10+。chrome不支持    
 ![英文单词换行自动加连词符](en-word-break/demo.png)
 
+## 页面很长
+1. [返回顶部按钮](http://htmlpreview.github.io/?https://github.com/iamjoel/make-cool-site/blob/master/scroll-to-top/index.html)
+1. 导航滚动时能固定
+例如 http://www.36kr.com/
+
 ## [导航滚动至锚点位置](http://htmlpreview.github.io/?https://github.com/iamjoel/make-cool-site/blob/master/nav-scroll-anim/index.html)
 1. 可以使用自定义的滚动效果
 1. 对当前的锚点位置可做一些修饰

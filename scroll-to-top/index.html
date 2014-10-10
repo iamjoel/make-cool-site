@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>返回顶部</title>
+	<style>
+	#scroll-to-top-btn{
+		position: fixed;
+		right: 100px;
+		bottom: 100px;
+		background: url(scroll-to-top.png) no-repeat;
+		display: block;
+		width: 50px;
+		height: 80px;
+	}
+	</style>
+</head>
+<body>
+	<div style="height:2000px;">往下滚</div>
+	<a id="scroll-to-top-btn" href="javascript:void(0);" title="返回顶部"></a>
+    <script src="http://cdn.staticfile.org/jquery/2.1.1-rc2/jquery.js"></script>
+	<script>
+	$(function () {
+		var $scrollTopBtn = $('#scroll-to-top-btn');
+
+		isShowScrollTopBtn();
+
+		$(window).scroll(function () {
+			isShowScrollTopBtn();
+		});
+
+		// scroll body to 0px on click
+		$('#scroll-to-top-btn').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+
+		function isShowScrollTopBtn(){
+			if ($(document).scrollTop()> 100) {
+				$scrollTopBtn.fadeIn();
+			} else {
+				$scrollTopBtn.fadeOut();
+			}
+		}
+	});
+	</script>
+</body>
+</html>
