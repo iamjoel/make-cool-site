@@ -8,4 +8,5 @@
 文字选中时，可设置与网站主题相符合的颜色。    
 ![文字选中](text-selected/demo.png)
 
-## <a href="nav-scroll-anim" target="_blank">导航滚动至锚点动画</a>
+## [导航滚动至锚点动画](http://htmlpreview.github.io/?https://github.com/iamjoel/make-cool-site/blob/master/nav-scroll-anim/index.html)
+点击导航到本页的链接时，可以使用自定义的滚动效果
