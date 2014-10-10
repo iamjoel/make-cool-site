@@ -3,12 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>导航滚动至锚点动画</title>
+    <title>导航滚动至锚点</title>
     <style>
     nav a {
         text-align: right;
         margin-left: 50px;
         font-size: 20px;
+    }
+    :target{
+    	background: #f00;
     }
     .holder {
         height: 600px;
@@ -18,8 +21,8 @@
 
 <body>
     <nav>
-        <a href= "javascript:void(0)"  data-target="#about-me">关于我</a>
-        <a href= "javascript:void(0)" data-target="#about-site">关于本站</a>
+        <a href= "#about-me">关于我</a>
+        <a href= "#about-site">关于本站</a>
     </nav>
     <div class="holder"></div>
     <div id="about-me">
@@ -40,7 +43,7 @@
         }
 
         $('nav a').click(function(){
-        	var $target = $($(this).data('target'));
+        	var $target = $($(this).attr('href'));
         	goToByScroll($target);
         });
     })
