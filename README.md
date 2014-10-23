@@ -30,8 +30,15 @@
 ## 合并页面上重复的功能而使界面简洁
 在整个产品开发期间我们会有意无意地创建很多模块，版面或者元素，而它们的功能可能有些是重叠的。此种情况表明界面已经过度设计了。时刻警惕这些冗余的功能模块，它无用且降低了电脑性能。此外，界面上模块越多，用户的学习成本就越大。所以请考虑重构你的界面使它足够精简。
 
+## 关于动画设计的准则
+* [CSS动画指南：规则与实例](http://zhubo.tumblr.com/css3-animation-in-12-principles)
+* [12 basic principles of animation](http://en.wikipedia.org/wiki/12_basic_principles_of_animation)
+* [motion-ui-design-principles](http://www.beyondkinetic.com/motion-ui-design-principles/)
+* [google的Material Design设计规范](http://www.google.com/design/spec/animation/authentic-motion.html)
+
 ## 更多资料
 * [好的用户界面-界面设计的一些技巧](http://www.cnblogs.com/Wayou/p/goodui.html) 翻译自 [goodui](http://goodui.org/)
+
 
 
 
