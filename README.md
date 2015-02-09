@@ -76,7 +76,8 @@ hover图片时，增加图片变暗的效果
 ## 更多资料
 * [好的用户界面-界面设计的一些技巧](http://www.cnblogs.com/Wayou/p/goodui.html) 翻译自 [goodui](http://goodui.org/)
 * [交互设计七大定律](http://www.geekpark.net/topics/166489)
-
+* [写给产品经理和设计师的用户体验知识1](http://zhuanlan.zhihu.com/uxcafe/19939046)
+* [写给产品经理和设计师的用户体验知识2](http://zhuanlan.zhihu.com/uxcafe/19948155)
 
 
 
